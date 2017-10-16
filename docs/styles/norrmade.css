@@ -143,7 +143,7 @@ display: inline-flex;
 .twitter {
     height: 100px;
     width: 100px;
-    background-image: url(img/twitter.png);
+    background-image: url(/docs/images/twitter.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +154,7 @@ display: inline-flex;
 .facebook {
     height: 100px;
     width: 100px;
-    background-image: url(img/facebook.png);
+    background-image: url(/docs/images/facebook.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +165,7 @@ display: inline-flex;
 .instagram {
     height: 100px;
     width: 100px;
-    background-image: url(img/insta.png);
+    background-image: url(/docs/images/insta.png);
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
