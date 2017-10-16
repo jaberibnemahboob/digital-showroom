@@ -75,7 +75,7 @@ header {
 
 #client h1 {
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: 400;
     color: #4B536D;
 }
 
@@ -110,7 +110,7 @@ nav a {
 
 #social h1 {
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: 400;
     color: #4B536D;
     text-align: center;
 }
@@ -132,7 +132,11 @@ display: inline-flex;
 .checkout {
     height: 40px;
     width: 40px;
+<<<<<<< HEAD
     background-image: url(../images/shopping-cart.png);
+=======
+    background-image: url(images/shopping-cart.png);
+>>>>>>> origin/master
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +158,11 @@ display: inline-flex;
 .facebook {
     height: 100px;
     width: 100px;
+<<<<<<< HEAD
     background-image: url(../images/facebook.png);
+=======
+    background-image: url(images/facebook.png);
+>>>>>>> origin/master
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +173,11 @@ display: inline-flex;
 .instagram {
     height: 100px;
     width: 100px;
+<<<<<<< HEAD
     background-image: url(../images/insta.png);
+=======
+    background-image: url(images/insta.png);
+>>>>>>> origin/master
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: center;
