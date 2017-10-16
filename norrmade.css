@@ -1,2 +1,97 @@
 @font-face { font-family: Avenir; src: url('/fonts/avenir.ttc'); }
  @font-face { font-family: Avenir; font-weight: bold; src: url('/fonts/avenir.ttc');}
+
+
+html, body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    font-family: Avenir;
+}
+
+main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "hd  hd hd hd"
+    "ft ft ft ft";
+
+}
+
+header {
+
+    display: inline-grid;
+    grid-area: hd;
+    height: 50px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: white;
+    width: 100%;
+}
+
+.logoimg {
+    max-width: 100px;
+    padding-top: 10px;
+}
+
+#logo {
+    display: auto;
+    align-self: center;
+    padding-left: 10em;
+    grid-column: 1/2;
+}
+
+#links {
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/3;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #4A4A4A;
+    font-size: 16px;
+}
+
+#buttons {
+    padding-top: 5px;
+    display: inline-flex;
+    align-content: center;
+    justify-self: right;
+    padding-right: 10em;;
+    grid-column: 3/4;
+}
+
+.btn-light {
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #7984A8;
+    font-weight: lighter;
+}
+
+.checkout {
+    height: 40px;
+    width: 40px;
+    background-image: url(img/shopping-cart.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-style: none;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    grid-area: ft;
+    z-index: 3;
+}
