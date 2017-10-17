@@ -1,0 +1,76 @@
+.landing-photo {
+  margin-top: 134px;
+}
+
+.about-us {
+  margin-top: 77px;
+}
+
+.designers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.designers * {
+  margin-top: 20px;
+}
+
+.designers img {
+  width: 270px;
+}
+
+.designers .quote {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+.designers .designer-names {
+  font-size: 25px;
+}
+
+.designers .designer-title {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.designers .about-designers {
+  margin-top: 70px;
+  text-align: left;
+}
+
+.furniture-production {
+  display: flex;
+  flex-direction: column;
+  margin-top: 125px;
+}
+
+.furniture-production .main-container.primary .text {
+  margin-right: 15%;
+}
+
+.furniture-production .main-container.secondary .img {
+  margin-right: 15%;
+}
+
+.furniture-production .main-container.secondary .text {
+  margin-top: 50px;
+}
+
+.furniture-production .main-container .text {
+  width: 55%;
+  float: left;
+}
+
+.furniture-production .main-container .text p {
+  margin-top: 70px;
+}
+
+.furniture-production .main-container .img {
+  width: 30%;
+  float: left;
+}
