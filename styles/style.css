@@ -1,7 +1,8 @@
 :root{
     --activeBtnBg: #4B536D;
-    --RegularBtnBg: #7984A8;
+    --regularBtnBg: #7984A8;
     --inputBg: #F1F1F1;
+    --inputColor: #CDCDCD;
     --headerColor: #4B536D;
     --textColor: #4A4A4A;
     --linkColor: #4B536D;
@@ -11,15 +12,16 @@
     --headerFontSize: 1.8em;
     --headerFontSize2: 1.5em;
     --headerFontSize3: 1.25em;
-    --inputFontSize: 3em;
+    --inputFontSize: 1.3em;
 
 
     --btnHeight: 40px;
+    --activeBtnHeight: 60px;
 
 
     --headerFontWeight: 600;
     --textFontWeight: 300;
-    --inputFontWeight: 600;
+    --inputFontWeight: 400;
     --linkFontWeight: bold;
 }
 
@@ -29,17 +31,30 @@ h2{color: var(--headerColor); font-size: var(--headerFontSize2); font-weight: va
 h3{color: var(--headerColor); font-size: var(--headerFontSize3); font-weight: var(--headerFontWeight); margin-bottom: 0.5em;}
 p{color: var(--textColor); font-size: var(--textFontSize); font-weight: var(--textFontWeight); margin-bottom: 0.5em;}
 a{text-decoration: none; color: var(--linkColor); font-weight: var(--linkFontWeight);}
-button, .btn, input[type="button"], input[type="submit"] {cursor: pointer; display: inline-block; height: var(--btnHeight); border-style: none;}
+button, .btn, input[type="button"], input[type="submit"] {cursor: pointer; display: inline-block; height: var(--btnHeight); border-radius: var(--btnHeight); border-style: none; font-weight: 300; color: #ffffff;}
 ul, li{list-style: none; margin-left: 0; padding-left: 0;}
+img{width: 100%;}
+img.inlineImg{width: inherit;}
+img.icon{max-width: 20px;}
+
+.lightTxt{color: #CDCDCD; font-size: 1.15em; font-weight: var(--inputFontWeight);}
+.price{color: var(--regularBtnBg);}
+.highlightedTxt{font-weight: bold; color: var(--regularBtnBg); font-size: 1.15em;}
+.quantityInput{position: relative; min-height: 40px; max-width: 75px; border-bottom: 1px solid #CCCCCC;}
+.quantityInput input{outline: none; border: none; position: absolute; top: 0; left: 0; background-color: #ffffff; width: 100%; height: 100%; font-size: var(--inputFontSize); font-weight: var(--inputFontWeight); color: var(--inputColor); text-align: center;}
+.quantityInput span{display: block; width: 1.5em; height: 100%; position: absolute; top: 0; right: 0; text-align: right; font-size: var(--inputFontSize); font-weight: var(--inputFontWeight); color: var(--inputColor); background-color: #ffffff; cursor: pointer;}
 
 .cursorPointer{ cursor: pointer; }
 .txtCenter{text-align: center;}
+.txtRight{text-align: right;}
+.txtJustify{text-align: justify;}
 .upperCase{text-transform: uppercase; }
 .hamburgerIcon{font-size: 1.8em;}
 .logo{max-width: 130px; padding-top: 0.5em;}
 a.icon{max-width: 120px; max-height: 120px; display: block;}
 
-.btn.light {border-radius: 40px; width: 100px; color: #ffffff; background-color: #7984A8; font-weight: 300;}
+.btn.light {width: 100px; background-color: var(--regularBtnBg); }
+.btn.dark {width: 200px; background-color: var(--activeBtnBg); height: var(--activeBtnHeight); border-radius: var(--activeBtnHeight);}
 .btn.icon{width: 40px;background-color: white; }
 .btn.icon.checkout{background-image: url(../images/shopping-cart.png); background-size: 25px 25px; background-repeat: no-repeat; background-position: center; }
 
@@ -47,3 +62,4 @@ a.icon{max-width: 120px; max-height: 120px; display: block;}
 .topHeaderContent nav:nth-child(2){padding-top: 0.5em;}
 .topHeaderContent nav:nth-child(3){text-align: right;}
 .topHeaderContent nav a{font-size: 1.1em; text-align: center; font-weight: 600;}
+.topHeaderContent nav a.active{font-weight: bolder;}
