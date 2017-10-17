@@ -114,7 +114,7 @@ img{width: 100%;}
     .mainContent article:nth-child(1) {padding-top: 6.5em; margin: 4em 0;}
     .mainContent article>div>div.txtHeader{height: 20%;}
 
-    .mailingServiceContent{margin: 10em 0;}
+    .mailingServiceContent, copyrightContent{margin: 10em 0;}
     .mailingServiceContent input{width: 45%; display: block; margin: 0 auto; outline: none; border: none; border-bottom: 1px solid #555555; font-size: 1.2em;}
     .mailingServiceContent h3{text-align: center;}
 

@@ -122,4 +122,6 @@ img{width: 100%;}
     footer .socialLink{text-align: center;}
     footer .socialLinkNav{display: grid; grid-gap: 0.5%; grid-template-columns: repeat(auto-fill, 33%);}
     footer .footerMenuNav a{display: block;}
+
+    .copyrightContent{margin-top: 3.5em; margin-bottom: 1.5em;}
 }
