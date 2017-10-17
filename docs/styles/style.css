@@ -1,0 +1,48 @@
+:root{
+    --activeBtnBg: #4B536D;
+    --RegularBtnBg: #7984A8;
+    --inputBg: #F1F1F1;
+    --headerColor: #4B536D;
+    --textColor: #4A4A4A;
+    --linkColor: #4B536D;
+
+
+    --textFontSize: 1em;
+    --headerFontSize: 1.8em;
+    --headerFontSize2: 1.5em;
+    --headerFontSize3: 1.25em;
+    --inputFontSize: 3em;
+
+
+    --btnHeight: 40px;
+
+
+    --headerFontWeight: 600;
+    --textFontWeight: 300;
+    --inputFontWeight: 600;
+    --linkFontWeight: bold;
+}
+
+body{font-family: 'Avenir'; font-size: var(--textFontSize);}
+h1{color: var(--headerColor); font-size: var(--headerFontSize); font-weight: var(--headerFontWeight); margin-bottom: 0.5em;}
+h2{color: var(--headerColor); font-size: var(--headerFontSize2); font-weight: var(--headerFontWeight); margin-bottom: 0.5em;}
+h3{color: var(--headerColor); font-size: var(--headerFontSize3); font-weight: var(--headerFontWeight); margin-bottom: 0.5em;}
+p{color: var(--textColor); font-size: var(--textFontSize); font-weight: var(--textFontWeight); margin-bottom: 0.5em;}
+a{text-decoration: none; color: var(--linkColor); font-weight: var(--linkFontWeight);}
+button, .btn, input[type="button"], input[type="submit"] {cursor: pointer; display: inline-block; height: var(--btnHeight); border-style: none;}
+ul, li{list-style: none; margin-left: 0; padding-left: 0;}
+
+.cursorPointer{ cursor: pointer; }
+.upperCase{text-transform: uppercase; }
+.hamburgerIcon{font-size: 1.8em;}
+.logo{max-width: 130px; padding-top: 0.5em;}
+a.icon{max-width: 120px; max-height: 120px; display: block;}
+
+.btn.light {border-radius: 40px; width: 100px; color: #ffffff; background-color: #7984A8; font-weight: 300;}
+.btn.icon{width: 40px;background-color: white; }
+.btn.icon.checkout{background-image: url(../images/shopping-cart.png); background-size: 25px 25px; background-repeat: no-repeat; background-position: center; }
+
+.topHeaderContent{padding-top: 2em; position: relative; top: 0;}
+.topHeaderContent nav:nth-child(2){padding-top: 0.5em;}
+.topHeaderContent nav:nth-child(3){text-align: right;}
+.topHeaderContent nav a{font-size: 1.1em; text-align: center; font-weight: 600;}
