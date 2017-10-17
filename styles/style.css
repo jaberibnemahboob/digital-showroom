@@ -33,6 +33,7 @@ button, .btn, input[type="button"], input[type="submit"] {cursor: pointer; displ
 ul, li{list-style: none; margin-left: 0; padding-left: 0;}
 
 .cursorPointer{ cursor: pointer; }
+.txtCenter{text-align: center;}
 .upperCase{text-transform: uppercase; }
 .hamburgerIcon{font-size: 1.8em;}
 .logo{max-width: 130px; padding-top: 0.5em;}
