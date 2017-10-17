@@ -76,11 +76,11 @@
 
 
 *{box-sizing: border-box; margin: 0;}
-main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative;}
+main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0;}
 img{width: 100%;}
 
 
-.topHeaderSection{box-shadow: 0 6px 12px rgba(0,0,0,.0625); position: fixed; height: 6.5em; width: 100%; z-index: 20; background: rgba(255,255,255,0.95);}
+.topHeaderSection{box-shadow: 0 6px 12px rgba(0,0,0,.0625); position: fixed; top: 0; height: 6.5em; width: 100%; z-index: 20; background: rgba(255,255,255,0.95);}
 .topHeader{max-width: 1100px; width: 100%; margin: 0 auto; height: 6.5em;}
 
 
@@ -111,7 +111,8 @@ img{width: 100%;}
     .mainContent article:nth-child(odd)>div:nth-child(2){grid-column: 4/9; padding: 3em; padding-left: 5em;}
     .mainContent article:nth-child(even)>div:nth-child(1){grid-column: 1/6; padding: 3em; padding-right: 5em;}
     .mainContent article:nth-child(even)>div:nth-child(2){grid-column: 6/9;}
-    .mainContent article>div:nth-child(2) div:nth-child(1){height: 20%;}
+    .mainContent article:nth-child(1) {padding-top: 6.5em; margin: 4em 0;}
+    .mainContent article>div>div.txtHeader{height: 20%;}
 
     .mailingServiceContent{margin: 10em 0;}
     .mailingServiceContent input{width: 45%; display: block; margin: 0 auto; outline: none; border: none; border-bottom: 1px solid #555555; font-size: 1.2em;}
