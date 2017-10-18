@@ -153,4 +153,20 @@ main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0;
     .productsViewContent article:nth-child(5) h2{margin-top: 4em;}
 
     .multiCarouselContent2 h2{margin: 2em 0;}
+
+
+    /*CATEGORIES PAGE*/
+    .productsGellaryContent{padding-top: 8.5em;}
+    .productsGellaryContent:after{content: ''; clear: both; display: block;}
+    .productsGellaryContent a{padding: 1em; float: left;}
+    .productsGellaryContent a:nth-child(10n+1){width: 27%; float: left;}
+    .productsGellaryContent a:nth-child(10n+2){width: 30%; float: left;}
+    .productsGellaryContent a:nth-child(10n+3){width: 43%; float: right;}
+    .productsGellaryContent a:nth-child(10n+4){width: 57%; float: left;}
+    .productsGellaryContent a:nth-child(10n+5){width: 43%; float: left;}
+    .productsGellaryContent a:nth-child(10n+6){width: 27%; float: right;}
+    .productsGellaryContent a:nth-child(10n+7){width: 30%; float: right;}
+    .productsGellaryContent a:nth-child(10n+8){width: 43%; float: left;}
+    .productsGellaryContent a:nth-child(10n+9){width: 57%; float: right;}
+    .productsGellaryContent a:nth-child(10n+10){width: 43%; float: right;}
 }

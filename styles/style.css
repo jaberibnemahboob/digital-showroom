@@ -37,7 +37,9 @@ img{width: 100%;}
 img.inlineImg{width: inherit;}
 img.icon{max-width: 20px;}
 
+.inlineBlock{display: inline-block;}
 .lightTxt{color: #CDCDCD; font-size: 1.15em; font-weight: var(--inputFontWeight);}
+.smallTxt{font-size: 0.85em;}
 .price{color: var(--regularBtnBg);}
 .highlightedTxt{font-weight: bold; color: var(--regularBtnBg); font-size: 1.15em;}
 .quantityInput{position: relative; min-height: 40px; max-width: 75px; border-bottom: 1px solid #CCCCCC;}
