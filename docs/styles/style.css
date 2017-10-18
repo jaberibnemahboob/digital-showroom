@@ -37,6 +37,7 @@ img{width: 100%;}
 img.inlineImg{width: inherit;}
 img.icon{max-width: 20px;}
 
+.block{display: block;}
 .inlineBlock{display: inline-block;}
 .lightTxt{color: #CDCDCD; font-size: 1.15em; font-weight: var(--inputFontWeight);}
 .smallTxt{font-size: 0.85em;}
