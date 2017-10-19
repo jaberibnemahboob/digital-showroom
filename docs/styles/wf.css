@@ -76,7 +76,7 @@
 
 
 *{box-sizing: border-box; margin: 0;}
-main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0;}
+main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0; min-width: 1100px;}
 
 
 .topHeaderSection{box-shadow: 0 6px 12px rgba(0,0,0,.0625); position: fixed; top: 0; height: 6.5em; width: 100%; z-index: 20; background: rgba(255,255,255,0.95);}
