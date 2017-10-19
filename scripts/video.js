@@ -5,6 +5,7 @@ let homePageHeaderContent = document.querySelector(".topHeaderSection");
 homePageMainContent.style.display = "none";
 homePageHeaderContent.style.display = "none";
 
+homePageIntroVideo.play();
 homePageIntroVideo.addEventListener('ended',function(e){
     document.querySelector(".introVideoSection").style.display = "none";
     homePageMainContent.style.display = "block";
