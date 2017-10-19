@@ -66,3 +66,10 @@ a.icon{max-width: 120px; max-height: 120px; display: block;}
 .topHeaderContent nav:nth-child(3){text-align: right;}
 .topHeaderContent nav a{font-size: 1.1em; text-align: center; font-weight: 600;}
 .topHeaderContent nav a.active{font-weight: bolder;}
+
+.fadeOut{ animation: fadeOut 1s ease-in forwards;}
+@keyframes fadeOut{
+	to{
+		opacity: 0;
+	}
+}
