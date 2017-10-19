@@ -5,8 +5,11 @@ let homePageHeaderContent = document.querySelector(".topHeaderSection");
 homePageMainContent.style.display = "none";
 homePageHeaderContent.style.display = "none";
 
-setTimeout(function(){homePageIntroVideo.play();},500);
 
+setTimeout(function(){homePageIntroVideo.play();},500);
+homePageIntroVideo.addEventListener('click',function(e){
+    homePageIntroVideo.play();
+});
 
 homePageIntroVideo.addEventListener('ended',function(e){
     document.querySelector(".introVideoSection").style.display = "none";
