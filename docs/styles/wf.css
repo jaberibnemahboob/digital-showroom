@@ -120,7 +120,8 @@ main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0;
     footer{display: grid; grid-gap: 0.5%; grid-template-columns: repeat(auto-fill, 33%); margin-top: 2.5em;}
     footer .socialLink{text-align: center;}
     footer .socialLinkNav{display: grid; grid-gap: 0.5%; grid-template-columns: repeat(auto-fill, 33%);}
-    footer .footerMenuNav a{display: block;}
+    footer .footerMenu h3{text-align: right;}
+    footer .footerMenuNav a{display: block; text-align: right;}
 
     .copyrightContent{margin-top: 3.5em; margin-bottom: 1.5em;}
 
