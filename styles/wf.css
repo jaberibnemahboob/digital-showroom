@@ -107,7 +107,7 @@ main{margin: 0 auto; max-width: 1100px; width: 100%; position: relative; top: 0;
     .multiCarouselContent .multiCarousel{min-height: 150px; width: 100%; background: rgba(255,255,255,0.95); position: absolute; top: 0; z-index: 10;}
 
     .multiCarouselContent article{display: grid; grid-gap: 1%; grid-template-columns: repeat(auto-fill, 11.625%);}
-    .multiCarouselContent article>div:nth-child(1){grid-column: 1/4; padding: 3em; padding-right: 7em; padding-top: 10em;}
+    .multiCarouselContent article>div:nth-child(1){grid-column: 1/4; padding: 3em; padding-right: 7em; padding-top: 13em;}
     .multiCarouselContent article>div:nth-child(2){grid-column: 4/9;}
     .multiCarouselContent article>div:nth-child(2) div:nth-child(1){height: 20%;}
 
