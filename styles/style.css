@@ -43,6 +43,7 @@ img.icon{max-width: 20px;}
 .smallTxt{font-size: 0.85em;}
 .price{color: var(--regularBtnBg);}
 .highlightedTxt{font-weight: bold; color: var(--regularBtnBg); font-size: 1.15em;}
+.skipBtnStyleTxt{font-weight: lighter; color: #FFFFFF; font-size: font-size: 1em;}
 .quantityInput{position: relative; min-height: 40px; max-width: 75px; border-bottom: 1px solid #CCCCCC;}
 .quantityInput input{outline: none; border: none; position: absolute; top: 0; left: 0; background-color: #ffffff; width: 100%; height: 100%; font-size: var(--inputFontSize); font-weight: var(--inputFontWeight); color: var(--inputColor); text-align: center;}
 .quantityInput span{display: block; width: 1.5em; height: 100%; position: absolute; top: 0; right: 0; text-align: right; font-size: var(--inputFontSize); font-weight: var(--inputFontWeight); color: var(--inputColor); background-color: #ffffff; cursor: pointer;}
