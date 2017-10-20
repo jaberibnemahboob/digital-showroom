@@ -19,9 +19,12 @@ homePageIntroVideo.addEventListener('ended',function(e){
 },false);
 
 skipBtnContent.addEventListener('click',function(e){
-    document.querySelector(".introVideoSection").style.display = "none";
-    homePageMainContent.style.display = "block";
-    homePageHeaderContent.style.display = "block";
+    document.querySelector(".introVideoSection").classList.add("fadeOut");
+    setTimeout(function(){
+        document.querySelector(".introVideoSection").style.display = "none";
+        homePageMainContent.style.display = "block";
+        homePageHeaderContent.style.display = "block";
+    },1200);
 },false);
 
 
